@@ -6,7 +6,7 @@ jobs:
   build:
     strategy:
       matrix:
-        os: [ fedora-latest, ubuntu-latest ]
+        os: [ ubuntu-latest ]
 
     runs-on: ${{matrix.os}}
 
@@ -16,5 +16,5 @@ jobs:
 
       - name: Validate scripts
         run: |
-          shellcheck -e .bashrc
-          shellcheck -e .bash_profile
+          shellcheck .bashrc
+          shellcheck .bash_profile
