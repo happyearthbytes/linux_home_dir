@@ -16,6 +16,5 @@ jobs:
 
       - name: Validate scripts
         run: |
-          shellcheck -e SC1090,SC1091 .zshrc
-          shellcheck -e SC1091 .prefs/ubuntu.sh
-          shellcheck .prefs/unix.sh
+          shellcheck -e .bashrc
+          shellcheck -e .bash_profile
