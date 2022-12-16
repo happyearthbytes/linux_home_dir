@@ -9,6 +9,7 @@
 !*.vimrc
 !*.vim
 !*.bashrc
+!*.bash_profile
 !.gitconfig
 !.gitignore
 !README.md
