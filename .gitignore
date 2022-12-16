@@ -6,3 +6,5 @@
 !*.vim
 !*.bashrc
 !.gitignore
+!.github/
+!.github/**
